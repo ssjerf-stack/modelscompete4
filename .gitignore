@@ -1,0 +1,16 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.tar.gz
+*.Rcheck/
+inst/doc/
+vignettes/*.html
+vignettes/*.R
+docs/
+_pkgdown.yml
+pkgdown/
+.Rproj.user
+.httr-oauth
+.DS_Store
+.quarto
