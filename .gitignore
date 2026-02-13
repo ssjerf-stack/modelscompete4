@@ -14,3 +14,5 @@ pkgdown/
 .httr-oauth
 .DS_Store
 .quarto
+modelscompete4.Rcheck/
+*.Rproj
