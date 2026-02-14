@@ -33,28 +33,28 @@ the models.}
 \item{parallel}{Method for parallel processing for bootstrapping
 ("multicore", "snow", or "no"). Recommended for large samples.}
 
-\item{\dots}{Additional arguments passed to
+\item{...}{Additional arguments passed to
 \code{\link[lavaan]{sem}}.}
 }
 \value{
 An object of class \code{modelscompete4}. This is a list
-containing:
-\itemize{
-\item \code{fit_list}: The list of fitted lavaan objects.
-\item \code{fit_table}: A data.frame of key fit indices for all
-models.
-\item \code{comparison_matrix}: A matrix showing pairwise nesting
-relationships and test results.
-\item \code{test_results}: Detailed results of the statistical
-tests performed.
-\item \code{bootstrap_summary}: Summary of bootstrapped results if
-requested.
-}
+  containing:
+  \itemize{
+    \item \code{fit_list}: The list of fitted lavaan objects.
+    \item \code{fit_table}: A data.frame of key fit indices for all
+      models.
+    \item \code{comparison_matrix}: A matrix showing pairwise nesting
+      relationships and test results.
+    \item \code{test_results}: Detailed results of the statistical
+      tests performed.
+    \item \code{bootstrap_summary}: Summary of bootstrapped results if
+      requested.
+  }
 }
 \description{
 This is the core function of the modelscompete4
-package. It automatically fits a list of SEM models, determines their
-nesting relationship, and performs the appropriate statistical
-comparison (chi-square difference test for nested models, Vuong test for
-non-nested models).
+  package. It automatically fits a list of SEM models, determines their
+  nesting relationship, and performs the appropriate statistical
+  comparison (chi-square difference test for nested models, Vuong test for
+  non-nested models).
 }
